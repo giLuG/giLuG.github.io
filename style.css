@@ -1,3 +1,7 @@
+body {
+	background-color: #FFE066
+}
+
 h1 {
 	text-align: center;
 }
@@ -6,3 +10,18 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 20px;
+}
+
+li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
