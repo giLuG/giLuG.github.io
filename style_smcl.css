@@ -7,17 +7,17 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: auto;
+	display: block;
+
 }
 
-h1 {
-	font-style: italic;
-	font-size: 50px;
-	text-align: center;
-	font-family: impact, charcoal, times new roman !important;
-}
-
-footer {
-	text-align: center;
+div {
+	position: relative;
+	left: 20px;
+	border: 10px;
+	border-style: outset;
+	padding: 10px
 }
 
 nav ul {
